@@ -1,0 +1,59 @@
+:root {
+    --card-radius: 14px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+    background: linear-gradient(180deg, #f7f9fc, #eef2f7);
+    color: #111827;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1.25rem 1.5rem;
+}
+
+.title {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: .2px;
+    margin: .25rem 0 1rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    border-radius: var(--card-radius);
+    padding: .75rem 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .06);
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-weight: 600;
+}
+
+.radio-group .dash-radioitem {
+    margin-right: 1rem;
+}
+
+.radio-group input[type="radio"] {
+    transform: scale(1.15);
+    margin-right: .4rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: var(--card-radius);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+    padding: .5rem;
+}
+
+.summary {
+    margin-top: .75rem;
+    font-weight: 600;
+}
